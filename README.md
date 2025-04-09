@@ -72,8 +72,7 @@ area(-1.0, 4.0); => -1 değerini dönmeli.
 * bu sefer tek bir ```double``` parametresi almalı. İsmi radius olabilir. Bu parametrede kullanıcıdan alınmalı.
 * parametre negatif bir dğer alırsa metod yine -1 dönmeli.
 * Diğer şartlarda metod ```radius*radius*Math.PI``` değerini dönmeli
-* Math.PI kullandığında ````math```` kütüphanesini import etmen gerekicek. 
-* Intellij kendisi otomatik import yapmazsa nasıl yapabileceğini araştır. Otomatik yaparsa Java'da başka kütüphaneleri nasıl ```import``` edebileceğimizi görmüş olucaksın.
+* Math.PI kullandığında ```java.lang``` paketinde olduğu otomatik `import` ediliyor, ekstra bir şey yapmana gerek yok. 
 
 area(5.0); => 78.53975 değerini dönmeli
 
