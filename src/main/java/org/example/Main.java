@@ -55,7 +55,7 @@ public class Main {
 
     public static double area (double radius){
         if (radius < 0){
-            System.out.println("radius cannot be less than zero !!! ");
+            System.out.println("radius cannot be less than zero !! ");
             return -1;
         }
         return radius*radius*Math.PI;
